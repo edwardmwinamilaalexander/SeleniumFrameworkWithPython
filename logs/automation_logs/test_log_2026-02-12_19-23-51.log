@@ -1,0 +1,29 @@
+2026-02-12 19:24:11,789 | INFO | TestValidCredentials | Starting test: test_login_with_valid_credentials
+2026-02-12 19:24:12,979 | INFO | TestValidCredentials | Loading login page
+2026-02-12 19:24:13,738 | INFO | TestValidCredentials | Entering email
+2026-02-12 19:24:13,916 | INFO | TestValidCredentials | Entering password
+2026-02-12 19:24:14,050 | INFO | TestValidCredentials | Clicking login button
+2026-02-12 19:24:17,301 | INFO | TestValidCredentials | Verifying login success by checking shopping cart badge visibility
+2026-02-12 19:24:17,337 | INFO | TestValidCredentials | Test passed: Login with valid credentials successful
+2026-02-12 19:27:31,252 | INFO | TestCheckoutFromProducts | Starting test: test_checkout_from_products
+2026-02-12 19:27:31,381 | INFO | TestCheckoutFromProducts | Initialized ProductsPage
+2026-02-12 19:27:33,102 | INFO | TestCheckoutFromProducts | Navigated to Electronics Offer page
+2026-02-12 19:27:33,103 | INFO | TestCheckoutFromProducts | Adding first electronics product to cart
+2026-02-12 19:27:33,470 | INFO | TestCheckoutFromProducts | Adding second electronics product to cart
+2026-02-12 19:27:36,313 | INFO | TestCheckoutFromProducts | Navigated to Cart page
+2026-02-12 19:27:37,735 | INFO | TestCheckoutFromProducts | Navigated to Checkout page
+2026-02-12 19:27:37,736 | INFO | TestCheckoutFromProducts | Verifying Checkout page is loaded
+2026-02-12 19:27:37,750 | INFO | TestCheckoutFromProducts | Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+2026-02-12 19:27:47,194 | INFO | TestCheckoutFromProducts | Checkout process completed successfully
+2026-02-12 19:27:56,099 | INFO | TestCompleteDetails | Starting test: test_complete_details
+2026-02-12 19:27:56,252 | INFO | TestCompleteDetails | Navigated to Products Page
+2026-02-12 19:27:57,678 | INFO | TestCompleteDetails | Navigated to Electronics Offer page
+2026-02-12 19:27:57,679 | INFO | TestCompleteDetails | Adding first electronics product to cart
+2026-02-12 19:27:57,853 | INFO | TestCompleteDetails | Adding second electronics product to cart
+2026-02-12 19:27:59,917 | INFO | TestCompleteDetails | Navigated to Cart page
+2026-02-12 19:28:00,941 | INFO | TestCompleteDetails | Navigated to Checkout page
+2026-02-12 19:28:00,941 | INFO | TestCompleteDetails | Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+2026-02-12 19:28:25,450 | INFO | TestCompleteDetails | Navigated to Confirm Details page
+2026-02-12 19:28:25,451 | INFO | TestCompleteDetails | Verifying confirm page is loaded
+2026-02-12 19:28:25,464 | INFO | TestCompleteDetails | Placing the order
+2026-02-12 19:28:26,836 | INFO | TestCompleteDetails | Test completed successfully: Order placed
