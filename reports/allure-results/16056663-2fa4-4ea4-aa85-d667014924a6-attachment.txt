@@ -1,0 +1,2 @@
+[32mINFO    [0m TestProductsPage:test_products_page.py:24 Checking if offer names count matches the number of names retrieved
+[32mINFO    [0m TestProductsPage:test_products_page.py:28 Count from page: 4, Names: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']

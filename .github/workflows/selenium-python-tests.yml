@@ -11,52 +11,61 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      HEADLESS: true      # Ensures Config.HEADLESS=True in get_driver()
+      HEADLESS: true  # ensures Config.HEADLESS=True in your driver
+      IMPLICIT_WAIT: 10  # optional if you use env for implicit waits
 
     steps:
-      # 1. Checkout the repository
-      - name: Checkout code
+      # Checkout the code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Set up Python
+      #  Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # 3. Install dependencies fresh
+      #  Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install --no-cache-dir -r requirements.txt
           pip install --no-cache-dir allure-pytest webdriver-manager
 
-      # 4. Install Chrome browser
+      #  Install Chrome browser
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
 
-      # 5. Run PyTest and generate Allure JSON results
+      #  Run PyTest and generate Allure JSON results
       - name: Run PyTest with Allure
         run: |
           mkdir -p allure-results
-          pytest -v --tb=short --alluredir=allure-results
+          mkdir -p screenshots
+          pytest -v --tb=short --alluredir=allure-results -n auto --dist=loadscope || true
 
-      # 6. Generate Allure HTML report
-      - name: Generate Allure Report
+      #  Generate Allure HTML report
+      - name: Generate Allure HTML Report
         run: |
           mkdir -p allure-report
           allure generate allure-results --clean -o allure-report
 
-      # 7. Upload Allure JSON results
+      #  Upload Allure JSON results
       - name: Upload Allure JSON Results
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: allure-results
 
-      # 8. Upload Allure HTML Report
+      #  Upload Allure HTML report
       - name: Upload Allure HTML Report
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report
+
+      #  Upload Screenshots on failure
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots

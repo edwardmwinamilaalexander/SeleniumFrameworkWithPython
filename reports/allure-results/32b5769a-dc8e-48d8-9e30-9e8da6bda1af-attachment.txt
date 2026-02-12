@@ -1,0 +1,2 @@
+[32mINFO    [0m TestProductsPage:test_products_page.py:43 Navigating to Electronics offer page
+[32mINFO    [0m TestProductsPage:test_products_page.py:47 Current URL after navigation: https://shop.qaautomationlabs.com/electronics.php

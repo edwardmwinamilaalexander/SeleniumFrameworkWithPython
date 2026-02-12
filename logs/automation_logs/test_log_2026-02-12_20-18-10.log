@@ -1,0 +1,40 @@
+2026-02-12 20:18:29,005 | INFO | TestValidCredentials | Starting test: test_login_with_valid_credentials
+2026-02-12 20:18:30,150 | INFO | TestValidCredentials | Loading login page
+2026-02-12 20:18:30,939 | INFO | TestValidCredentials | Entering email
+2026-02-12 20:18:31,096 | INFO | TestValidCredentials | Entering password
+2026-02-12 20:18:31,201 | INFO | TestValidCredentials | Clicking login button
+2026-02-12 20:18:34,241 | INFO | TestValidCredentials | Verifying login success by checking shopping cart badge visibility
+2026-02-12 20:18:34,271 | INFO | TestValidCredentials | Test passed: Login with valid credentials successful
+2026-02-12 20:20:12,272 | INFO | TestCheckoutFromProducts | Starting test: test_checkout_from_products
+2026-02-12 20:20:12,322 | INFO | TestCheckoutFromProducts | Initialized ProductsPage
+2026-02-12 20:20:13,378 | INFO | TestCheckoutFromProducts | Navigated to Electronics Offer page
+2026-02-12 20:20:13,379 | INFO | TestCheckoutFromProducts | Adding first electronics product to cart
+2026-02-12 20:20:13,524 | INFO | TestCheckoutFromProducts | Adding second electronics product to cart
+2026-02-12 20:20:15,273 | INFO | TestCheckoutFromProducts | Navigated to Cart page
+2026-02-12 20:20:16,156 | INFO | TestCheckoutFromProducts | Navigated to Checkout page
+2026-02-12 20:20:16,156 | INFO | TestCheckoutFromProducts | Verifying Checkout page is loaded
+2026-02-12 20:20:16,167 | INFO | TestCheckoutFromProducts | Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+2026-02-12 20:20:18,112 | INFO | TestCheckoutFromProducts | Checkout process completed successfully
+2026-02-12 20:20:24,548 | INFO | TestCompleteDetails | Starting test: test_complete_details
+2026-02-12 20:20:24,600 | INFO | TestCompleteDetails | Navigated to Products Page
+2026-02-12 20:20:25,743 | INFO | TestCompleteDetails | Navigated to Electronics Offer page
+2026-02-12 20:20:25,744 | INFO | TestCompleteDetails | Adding first electronics product to cart
+2026-02-12 20:20:25,890 | INFO | TestCompleteDetails | Adding second electronics product to cart
+2026-02-12 20:20:27,757 | INFO | TestCompleteDetails | Navigated to Cart page
+2026-02-12 20:20:28,639 | INFO | TestCompleteDetails | Navigated to Checkout page
+2026-02-12 20:20:28,640 | INFO | TestCompleteDetails | Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+2026-02-12 20:20:51,312 | INFO | TestCompleteDetails | Navigated to Confirm Details page
+2026-02-12 20:20:51,313 | INFO | TestCompleteDetails | Verifying confirm page is loaded
+2026-02-12 20:20:51,323 | INFO | TestCompleteDetails | Placing the order
+2026-02-12 20:20:52,202 | INFO | TestCompleteDetails | Test completed successfully: Order placed
+2026-02-12 20:22:21,047 | INFO | TestProductsPage | Checking if the products page loads correctly
+2026-02-12 20:22:21,061 | INFO | TestProductsPage | Current URL: https://shop.qaautomationlabs.com/shop.php
+2026-02-12 20:22:27,481 | INFO | TestProductsPage | Checking if offer names are displayed
+2026-02-12 20:22:27,583 | INFO | TestProductsPage | Offer names found: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']
+2026-02-12 20:22:33,965 | INFO | TestProductsPage | Checking if offer names count matches the number of names retrieved
+2026-02-12 20:22:34,108 | INFO | TestProductsPage | Count from page: 4, Names: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']
+2026-02-12 20:22:40,851 | INFO | TestProductsPage | Clicking 'Shop Now' button by index
+2026-02-12 20:22:40,950 | INFO | TestProductsPage | Total 'Shop Now' buttons found: 4
+2026-02-12 20:22:41,990 | INFO | TestProductsPage | Clicked first 'Shop Now' button successfully
+2026-02-12 20:22:48,324 | INFO | TestProductsPage | Navigating to Electronics offer page
+2026-02-12 20:22:49,553 | INFO | TestProductsPage | Current URL after navigation: https://shop.qaautomationlabs.com/electronics.php
