@@ -14,7 +14,7 @@ A Selenium WebDriver test automation framework built with Python and Pytest. Thi
 - **Screenshot Capture** - Automatic screenshot on test failure
 - **CI/CD Ready** - GitHub Actions workflow included
 - **Environment Management** - Support for multiple environments via .env files
-- **Retry Mechanism** - Automatic retry for failed tests
+
 
 ## 📋 Prerequisites
 
@@ -23,9 +23,3 @@ A Selenium WebDriver test automation framework built with Python and Pytest. Thi
 - Git
 - Allure CLI (for generating reports)
 
-## 🛠️ Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Selenium-Python-Framework.git
-cd Selenium-Python-Framework
