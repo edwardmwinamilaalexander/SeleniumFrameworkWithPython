@@ -1,0 +1,2 @@
+INFO     TestProductsPage:test_products_page.py:16 Checking if offer names are displayed
+INFO     TestProductsPage:test_products_page.py:19 Offer names found: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']

@@ -1,0 +1,2 @@
+INFO     TestProductsPage:test_products_page.py:9 Checking if the products page loads correctly
+INFO     TestProductsPage:test_products_page.py:11 Current URL: https://shop.qaautomationlabs.com/shop.php

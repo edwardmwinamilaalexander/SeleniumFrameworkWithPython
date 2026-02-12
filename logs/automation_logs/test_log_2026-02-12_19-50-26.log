@@ -1,0 +1,11 @@
+2026-02-12 19:50:30,681 | INFO | TestProductsPage | Checking if the products page loads correctly
+2026-02-12 19:50:30,696 | INFO | TestProductsPage | Current URL: https://shop.qaautomationlabs.com/shop.php
+2026-02-12 19:50:37,211 | INFO | TestProductsPage | Checking if offer names are displayed
+2026-02-12 19:50:37,331 | INFO | TestProductsPage | Offer names found: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']
+2026-02-12 19:50:44,142 | INFO | TestProductsPage | Checking if offer names count matches the number of names retrieved
+2026-02-12 19:50:44,310 | INFO | TestProductsPage | Count from page: 4, Names: ['Men Fashion', 'Women Fashion', 'Kids Fashion', 'Electronics']
+2026-02-12 19:50:51,862 | INFO | TestProductsPage | Clicking 'Shop Now' button by index
+2026-02-12 19:50:51,920 | INFO | TestProductsPage | Total 'Shop Now' buttons found: 4
+2026-02-12 19:50:52,949 | INFO | TestProductsPage | Clicked first 'Shop Now' button successfully
+2026-02-12 19:50:59,745 | INFO | TestProductsPage | Navigating to Electronics offer page
+2026-02-12 19:51:01,000 | INFO | TestProductsPage | Current URL after navigation: https://shop.qaautomationlabs.com/electronics.php
