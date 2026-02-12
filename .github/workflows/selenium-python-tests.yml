@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      HEADLESS: true  # ensures Config.HEADLESS=True in your driver
-      IMPLICIT_WAIT: 10  # optional if you use env for implicit waits
+      HEADLESS: true
+      IMPLICIT_WAIT: 10
 
     steps:
-      # Checkout the code
+      #  Checkout code
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -36,7 +36,14 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
 
-      #  Run PyTest and generate Allure JSON results
+      #  Install Allure CLI
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install -y allure
+
+      #  Run PyTest with Allure JSON results
       - name: Run PyTest with Allure
         run: |
           mkdir -p allure-results
