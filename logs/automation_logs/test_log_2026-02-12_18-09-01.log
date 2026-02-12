@@ -1,0 +1,10 @@
+2026-02-12 18:09:06,371 | INFO | TestCheckoutFromProducts | Starting test: test_checkout_from_products
+2026-02-12 18:09:06,409 | INFO | TestCheckoutFromProducts | Initialized ProductsPage
+2026-02-12 18:09:07,536 | INFO | TestCheckoutFromProducts | Navigated to Electronics Offer page
+2026-02-12 18:09:07,536 | INFO | TestCheckoutFromProducts | Adding first electronics product to cart
+2026-02-12 18:09:07,636 | INFO | TestCheckoutFromProducts | Adding second electronics product to cart
+2026-02-12 18:09:09,474 | INFO | TestCheckoutFromProducts | Navigated to Cart page
+2026-02-12 18:09:10,361 | INFO | TestCheckoutFromProducts | Navigated to Checkout page
+2026-02-12 18:09:10,362 | INFO | TestCheckoutFromProducts | Verifying Checkout page is loaded
+2026-02-12 18:09:10,374 | INFO | TestCheckoutFromProducts | Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+2026-02-12 18:09:12,439 | INFO | TestCheckoutFromProducts | Checkout process completed successfully

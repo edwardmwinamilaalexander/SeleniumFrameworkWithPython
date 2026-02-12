@@ -1,0 +1,7 @@
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:14 Starting test: test_login_with_valid_credentials
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:17 Loading login page
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:20 Entering email
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:23 Entering password
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:26 Clicking login button
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:29 Verifying login success by checking shopping cart badge visibility
+[32mINFO    [0m TestValidCredentials:test_valid_credentials.py:34 Test passed: Login with valid credentials successful

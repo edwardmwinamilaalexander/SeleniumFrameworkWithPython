@@ -1,0 +1,10 @@
+INFO     TestCheckoutFromProducts:test_checkout_page.py:14 Starting test: test_checkout_from_products
+INFO     TestCheckoutFromProducts:test_checkout_page.py:17 Initialized ProductsPage
+INFO     TestCheckoutFromProducts:test_checkout_page.py:20 Navigated to Electronics Offer page
+INFO     TestCheckoutFromProducts:test_checkout_page.py:23 Adding first electronics product to cart
+INFO     TestCheckoutFromProducts:test_checkout_page.py:26 Adding second electronics product to cart
+INFO     TestCheckoutFromProducts:test_checkout_page.py:30 Navigated to Cart page
+INFO     TestCheckoutFromProducts:test_checkout_page.py:33 Navigated to Checkout page
+INFO     TestCheckoutFromProducts:test_checkout_page.py:36 Verifying Checkout page is loaded
+INFO     TestCheckoutFromProducts:test_checkout_page.py:39 Completing checkout using test data: {'first_name': 'John', 'last_name': 'Doe', 'email': 'john@test.com', 'phone': '1234567890', 'address': '123 Main Street', 'city': 'New York', 'state': 'NY', 'pincode': '10001'}
+INFO     TestCheckoutFromProducts:test_checkout_page.py:42 Checkout process completed successfully
